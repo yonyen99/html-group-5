@@ -1,4 +1,7 @@
 /********** Template CSS **********/
+body {
+    font-family: 'Battambang', sans-serif;
+}
 
 .back-to-top {
     position: fixed;
@@ -222,8 +225,8 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/testimonial.jpg) center center no-repeat;
-    background-size: cover;
+    /* background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/testimonial.jpg) center center no-repeat;
+    background-size: cover; */
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -605,3 +608,53 @@
 .copyright a:hover {
     color: var(--bs-primary);
 }
+
+/* Style For Lates News page */
+.banner {
+    img {
+        max-width: 1299px;
+        padding: 3px;
+    }
+}
+
+#home-mid-wrap {
+    padding: 5px;
+    background: #fff;
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+h1.cat-head {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+ 
+
+h1.cat-head {
+    color: #222;
+    font-weight: 800;
+    line-height: 100%;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+a.btn-show-more {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+a.btn-show-more:hover {
+    color: #fff !important;
+    background-color: var(--bs-primary);
+
+}
+
+
+/* ============================================ */
