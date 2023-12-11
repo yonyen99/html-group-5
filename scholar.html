@@ -3,21 +3,21 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Asignment-Group-5</title>
+    <title>Labsky - Laboratory HTML Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- fon size  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -32,8 +32,26 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
 </head>
+
+<style>
+    .p-5 {
+        padding: 1rem !important;
+    }
+
+    p.mb-0 {
+        color: #1a1282;
+    }
+
+    .page-container {
+        background: url(https://dap-news.com/wp-content/uploads/2023/11/photo_2023-11-08_10-48-22-450x270.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    #more {
+        display: none;
+    }
+</style>
 
 <body>
     <!-- Spinner Start -->
@@ -42,19 +60,21 @@
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
+
+
     <!-- Topbar Start -->
     <div class="container-fluid py-2 d-none d-lg-flex">
         <div class="container d-flex justify-content-center align-items-center">
             <img src="img/1-1.png" alt="" srcset="" width="35%">
         </div>
     </div>
-    <!-- Topbar End -->
+
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
                 <a href="index.html" class="navbar-brand d-lg-none">
-                    <h1 class="text-primary m-0">Lab<span class="text-dark">sky</span></h1>
+                    <h1 class="text-primary m-0">News<span class="text-dark">group5</span></h1>
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -67,13 +87,12 @@
                             <a href="index.html" class="nav-item nav-link"
                                 style="font-size: 11px;">ព្រឹត្តិការណ៍សំខាន់ប្រចាំថ្ងៃ</a>
                             <a href="about.html" class="nav-item nav-link" style="font-size: 11px;">ព័ត៌មានចុងក្រោយ</a>
-                            <a href="service.html" class="nav-item nav-link active"
-                                style="font-size: 11px;">ព័ត៌មានជាតិ</a>
+                            <a href="service.html" class="nav-item nav-link" style="font-size: 11px;">ព័ត៌មានជាតិ</a>
                             <a href="politic.html" class="nav-item nav-link" style="font-size: 11px;">នយោបាយ</a>
-
-                            <a href="international.html" class="nav-item nav-link" style="font-size: 11px;">ព័ត៌មានអន្តរជាតិ</a>
-                            <a href="scholar.html" class="nav-item nav-link" style="font-size: 11px;">អត្ថបទស្រាវជ្រាវ
-                                (scholar)</a>
+                            <a href="international.html" class="nav-item nav-link "
+                                style="font-size: 11px;">ព័ត៌មានអន្តរជាតិ</a>
+                            <a href="scholar.html" class="nav-item nav-link active"
+                                style="font-size: 11px;">អត្ថបទស្រាវជ្រាវ (scholar)</a>
                             <a href="#" class="nav-item nav-link" style="font-size: 11px;">Event</a>
                             <a href="#" class="nav-item nav-link" style="font-size: 11px;">កីឡា</a>
                             <a href="#" class="nav-item nav-link" style="font-size: 11px;">Special Edition</a>
@@ -81,8 +100,7 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
                                     style="font-size: 11px;">ផ្សេងៗ</a>
                                 <div class="dropdown-menu bg-light m-0">
-                                    <a href="feature.html" class="dropdown-item" style="font-size: 11px;">SEA
-                                        GAME</a>
+                                    <a href="feature.html" class="dropdown-item" style="font-size: 11px;">SEA GAME</a>
                                     <a href="team.html" class="dropdown-item" style="font-size: 11px;">Covid-19</a>
                                     <a href="testimonial.html" class="dropdown-item"
                                         style="font-size: 11px;">វប្បធម៌កាន់ស៊ុ</a>
@@ -106,136 +124,190 @@
         </div>
     </div>
     <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid header-carousel px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/scholar.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 text-start">
+                                    <h1 class="display-1 text-white animated slideInRight mb-3">អត្ថបទស្រាវជ្រាវ (scholar)</h1>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">មានច្រើនទៀត</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/banner6.png" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-lg-7 text-end">
+                                    <h1 class="display-1 text-white animated slideInRight mb-3">អត្ថបទស្រាវជ្រាវ (scholar)</h1>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">មានច្រើនទៀត</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel end -->
+
     <!-- Features Start -->
     <div class="container-fluid py-5 mb-5">
         <div class="container">
-            <div class="search-bar">
-                <input id="search" class="border border-primary" type="search"
-                    placeholder="&#x1F50D; Start typing to search..." list="search-suggestions" autocomplete="off" />
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-3">អត្ថបទស្រាវជ្រាវ (scholar)
+                </h1>
+                <p class="mb-5">កម្ពុជានិងកម្ពុជាក្រោម ក្នុងឧបាយកល យុទ្ធសាស្ត្រ សហព័ន្ធឥណ្ឌូចិន</p>
             </div>
-            <h3>ព័ត៌មានជាតិ</h3>
             <div class="row g-0 feature-row">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="feature-item h-100 p-5">
-
-                        <img width="250px" ; height="150px"
-                            src="https://dap-news.com/wp-content/uploads/2023/12/photo_2023-12-08_10-48-17-450x270.jpg"
-                            alt="">
-                        <br><br>
-                        <p class="mb-0">
-                            <a href="latest_news1.html">
-                                សម្ដេចធិបតី៖ គ្មា​នការយកដី នៅជុំវិញតំបន់អង្គរ លក់ឲ្យក្រុមហ៊ុនណាមួយឡើយ</a>
-                        </p>
-                        <p class="date_news">19 Jan 2020</p>
-                    </div>
+                    <a href="scholar-detail.html">
+                        <div class="feature-item h-100 p-5">
+                            <img width="250px" ; height="150px"
+                                src="https://dap-news.com/wp-content/uploads/2023/11/photo_2023-450x270.jpg" alt="">
+                            <br><br>
+                            <p class="mb-0">
+                                លោក Xi Jinping ប្រធានរដ្ឋចិន ថ្លែងក្នុងកិច្ចជំនួបជាមួយនាយករដ្ឋមន្ត្រីអូស្ត្រាលី ថា
+                                ទំនាក់ទំនងចិន-អូស្ត្រាលី
+                                ដែលមានភាពល្អបរិសុទ្ធ និងស្ថិរភាពគឺសមស្របនឹងផលប្រយោជន៍រួម របស់ប្រទេសទាំងពីរ
+                                និងប្រជាជននៃប្រទេសទាំងពីរ
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="feature-item h-100 p-5">
-                        <img width="250px" ; height="150px"
-                            src="https://dap-news.com/wp-content/uploads/2023/12/Untitled-1-27-450x270.jpg" alt="">
-                        <br><br>
-                        <p class="mb-0">
-                            <a href="latest_news1.html">
-                                ឧត្តមសេនីយ៍ត្រី ហ៊ុល វណ្ឌី ដឹកនាំនាយទាហានគោរពវិញ្ញាណក្ខន្ធ មហាឧបាសិកា មុន សៀម
-                                ជាម្តាយបង្កើតនាយឧត្តមសេនីយ៍ ណុប រតនា</a>
-                        </p>
-                        <p class="date_news">19 Jan 2020</p>
-                    </div>
+                    <a href="scholar-detail.html">
+                        <div class="feature-item h-100 p-5">
+                            <img width="250px" ; height="150px"
+                                src="https://dap-news.com/wp-content/uploads/2023/10/photo_2023-10-27_15-35-57-450x270.jpg"
+                                alt="">
+                            <br><br>
+                            <p class="mb-0">
+                                បទវិភាគ៖ ប្រឈមមុខនឹងផែនការខុសគ្នា ដែលដាក់ដោយប្រទេសចិន និងអាមេរិក ពិភពលោកបានជ្រើសរើសប្រទេសចិន
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="feature-item h-100 p-5">
-                        <img width="250px" ; height="150px"
-                            src="https://dap-news.com/wp-content/uploads/2023/12/Untitled-1-26-450x270.jpg" alt="">
-                        <br><br>
-                        <p class="mb-0">
-                            <a href="latest_news1.html">ប្រធានណាតូ៖ យើងគួរត្រៀមខ្លួន សម្រាប់ដំណឹងអាក្រក់ នៅអ៊ុយក្រែន</a>
-                        </p>
-                        <p class="date_news">19 Jan 2020</p>
-                    </div>
+                    <a href="scholar-detail.html">
+                        <div class="feature-item h-100 p-5">
+                            <img width="250px" ; height="150px"
+                                src="https://dap-news.com/wp-content/uploads/2023/10/photo_2023-10-27_15-28-58-450x270.jpg"
+                                alt="">
+                            <br><br>
+                            <p class="mb-0">
+                                បទវិភាគ៖ ដំណើរទស្សនកិច្ចរបស់លោក Gavin Newsom
+                                អភិបាលរដ្ឋកាលីហ្វ័រញ៉ានៃសហរដ្ឋអាមេរិកគឺជាការក្រើនរំលឹកដល់ទីក្រុងវ៉ាស៊ីនតោន ថា ប្រទេសចិន
+                                ទទួលបានជោគជ័យកាន់តែខ្លាំង
+                                យើងទាំងអស់គ្នាក៏កាន់តែទទួលបានជោគជ័យដែរ
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="feature-item h-100 p-5">
-                        <img width="250px" ; height="150px"
-                            src="https://dap-news.com/wp-content/uploads/2023/12/Untitled-1-25-450x270.jpg" alt="">
-                        <br><br>
-                        <p class="mb-0">
-                            <a href="latest_news1.html">គ្រោះទឹកជំនន់ភ្លាមៗ វាយប្រហារមកលើកោះស៊ូម៉ាត្រា របស់ឥណ្ឌូនេស៊ី
-                                បណ្តាលឲ្យស្លាប់
-                                និងបាត់ខ្លួន ១២នាក់</a>
-                        </p>
-                        <p class="date_news">19 Jan 2020</p>
-                    </div>
+                    <a href="scholar-detail.html">
+                        <div class="feature-item h-100 p-5">
+                            <img width="250px" ; height="150px"
+                                src="https://dap-news.com/wp-content/uploads/2023/10/photo_2023-10-26_16-02-48-450x270.jpg"
+                                alt="">
+                            <br><br>
+                            <p class="mb-0">
+                                លោក Galip Sun និយាយពីកម្ពុជា៖ ថ្នាក់ដឹកនាំថ្មីនឹងនាំមកនូវវឌ្ឍនភាពថ្មី!
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="feature-item h-100 p-5">
-                        <img width="250px" ; height="150px"
-                            src="https://dap-news.com/wp-content/uploads/2023/12/Untitled-1-24-450x270.jpg" alt="">
-                        <br><br>
-                        <p class="mb-0">
-                            <a href="">Update៖ កូរ៉េខាងជើង ព្រមាននឹងតបតទៅ នឹងការវាយប្រហារណាមកលើទ្រព្យសម្បត្តិ
-                                អវកាសរបស់ខ្លួន
-                            </a>
-                        </p>
-                        <p class="date_news">19 Jan 2020</p>
-                    </div>
+                    <a href="scholar-detail.html">
+                        <div class="feature-item h-100 p-5">
+                            <img width="250px" ; height="150px"
+                                src="https://dap-news.com/wp-content/uploads/2023/10/photo_2023-10-16_16-06-39-450x270.jpg"
+                                alt="">
+                            <br><br>
+                            <p class="mb-0">
+                                បទវិភាគ៖ គំនិតផ្តួចផ្តើម “ខ្សែក្រវាត់និងផ្លូវ ”ដែលមានប្រភពមកពីប្រទេសចិន និងជារបស់សកលលោក
+                                នឹងមានអំណោយផលដល់ មនុស្សជាតិទាំងមូល
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="feature-item h-100 p-5">
-                        <img width="250px" ; height="150px"
-                            src="https://dap-news.com/wp-content/uploads/2023/12/photo_2023-12-08_09-49-36-450x270.jpg"
-                            alt="">
-                        <br><br>
-                        <p class="mb-0">
-                            <a href="">Update៖ ពលរដ្ឋប៉ាឡេស្ទីន ជាង១៥.០០០នាក់​ បាត់បង់ជីវិត ដោយសារជម្លោះ រវាងអ៊ីស្រាអ៊ែល
-                                និងក្រុមហាម៉ាស់</a>
-                        </p>
-                        <p class="date_news">19 Jan 2020</p>
-                    </div>
+                    <a href="scholar-detail.html">
+                        <div class="feature-item h-100 p-5">
+                            <img width="250px" ; height="150px"
+                                src="https://dap-news.com/wp-content/uploads/2023/10/photo_2023-10-16_10-26-47-450x270.jpg"
+                                alt="">
+                            <br><br>
+                            <p class="mb-0">
+                                បទវិភាគ៖ គំនិតផ្តួចផ្តើមស្តីពី “ខ្សែក្រវាត់និងផ្លូវ” បានជះឥទ្ធិពលជាវិជ្ជមាន
+                                ដល់ការអភិវឌ្ឍរបស់មនុស្សជាតិទាំងមូល
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="feature-item h-100 p-5">
-                        <img width="250px" ; height="150px"
-                            src="https://dap-news.com/wp-content/uploads/2023/12/Untitled-1-23-450x270.jpg" alt="">
-                        <br><br>
-                        <p class="mb-0">
-                            <a href="">គ្រោះរញ្ជួយដី កម្រិត៦,៩រ៉ិចទ័រ វាយប្រហារភាគខាងត្បូង នៃប្រទេសហ្វីលីពីន
-                                និងមានការព្រមានអំពី រលកយក្សស៊ូណាមិ
-                                កើតឡើង</a>
-                        </p>
-                        <p class="date_news">19 Jan 2020</p>
-                    </div>
+                    <a href="scholar-detail.html">
+                        <div class="feature-item h-100 p-5">
+                            <img width="250px" ; height="150px"
+                                src="https://dap-news.com/wp-content/uploads/2023/10/photo_2023-10-15_12-57-35-450x270.jpg"
+                                alt="">
+                            <br><br>
+                            <p class="mb-0">
+                                កម្មវិធី «បទសម្ភាសន៍ជាមួយថ្នាក់ដឹកនាំ» បានចាក់ផ្សាយមួយឆ្នាំហើយ !
+                                អគ្គស្ថានីយវិទ្យុនិងទូរទស្សន៍មជ្ឈិមចិន បើកធ្វើពិធីសំណេះសំណាល
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="feature-item h-100 p-5">
-                        <img width="250px" ; height="150px"
-                            src="https://dap-news.com/wp-content/uploads/2023/12/photo_2023-12-08_09-23-22-450x270.jpg"
-                            alt="">
-                        <br><br>
-                        <p class="mb-0">
-                            <a href="">សរុបព្រឹត្តិការណ៍ព័ត៌មានអន្តរជាតិ សំខាន់ៗប្រចាំសប្ដាហ៍</a>
-                        </p>
-                        <p class="date_news">19 Jan 2020</p>
-                    </div>
+                    <a href="scholar-detail.html">
+                        <div class="feature-item h-100 p-5">
+                            <img width="250px" ; height="150px"
+                                src="https://dap-news.com/wp-content/uploads/2023/10/2-2-450x270.jpg" alt="">
+                            <br><br>
+                            <p class="mb-0">
+                                បទវិភាគ៖ កិច្ចសហប្រតិបតិ្តការ “ខ្សែក្រវាត់និងផ្លូវ” ឈានចូលសម័យកាលមាស
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <span id="dots">...</span>
                 <div id="more">
                     <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="feature-item h-100 p-5">
-                            <img width="250px" ; height="150px"
-                                src="https://dap-news.com/wp-content/uploads/2023/12/Untitled-1-23-450x270.jpg" alt="">
-                            <br><br>
-                            <p class="mb-0">
-                                <a href="">រុស្ស៊ី បង្ហាញវិដេអូ នៃការវាយប្រហារដោយ Su-25 ទៅលើគោលដៅ នៅអ៊ុយក្រែន </a>
-                            </p>
-                            <p class="date_news">19 Jan 2020</p>
-                        </div>
+                        <a href="scholar-detail.html">
+                            <div class="feature-item h-100 p-5">
+                                <img width="250px" ; height="150px"
+                                    src="https://dap-news.com/wp-content/uploads/2023/07/photo_2023-07-17_10-45-29-450x270.jpg"
+                                    alt="">
+                                <br><br>
+                                <p class="mb-0">
+                                    បទវិភាគ៖ មិត្តភក្តិដ៏ពិតប្រាកដគួរតែប្រាស្រ័យទាក់ទងឱ្យបានច្រើន
+                                    ដើម្បីមានទំនាក់ទំនងកាន់តែល្អប្រសើរ
+                                </p>
+                            </div>
+                        </a>
                     </div>
-
                 </div>
-                <button onclick="myFunction()" id="myBtn" class="border border-primary">Read more</button>
+                <button onclick="myFunction()" id="myBtn" class="btn btn-primary px-3">ច្រើនទៀត</button>
             </div>
         </div>
-
     </div>
     <!-- Features End -->
 
@@ -248,7 +320,8 @@
                         <h1 class="h1 text-primary mb-0">Lab<span class="text-white">sky</span></h1>
                     </a>
                     <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
-                        augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                        augue, iaculis
+                        id elit eget, ultrices pulvinar tortor.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</p>
                     <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
                     <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
@@ -294,6 +367,7 @@
         </div>
     </div>
     <!-- Footer End -->
+
     <!-- Copyright Start -->
     <div class="container-fluid copyright bg-dark text-white-50 py-4">
         <div class="container">
@@ -310,6 +384,7 @@
         </div>
     </div>
     <!-- Copyright End -->
+
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a>
@@ -385,166 +460,15 @@
 
             if (dots.style.display === "none") {
                 dots.style.display = "inline";
-                btnText.innerHTML = "Read more";
+                btnText.innerHTML = "ច្រើនទៀត";
                 moreText.style.display = "none";
             } else {
                 dots.style.display = "none";
-                btnText.innerHTML = "Read less";
+                btnText.innerHTML = "ច្រើនទៀត";
                 moreText.style.display = "inline";
             }
         }
     </script>
-    <style>
-        .p-5 {
-            padding: 1rem !important;
-        }
-
-        p.mb-0 {
-            color: #1a1282;
-        }
-
-        a:hover {
-            color: #ff2143
-        }
-
-        .date_news {
-            color: #838793;
-            font-size: 12px;
-            margin: 0
-        }
-
-        #more {
-            display: none;
-        }
-
-        .search-bar {
-            display: flex;
-            justify-content: center;
-            padding: 24px;
-        }
-
-        .search-bar input {
-            width: 50%;
-            min-width: 300px;
-            padding: 12px 24px;
-            border-radius: 24px;
-            font-size: 16px;
-            border: 0px;
-            outline: none;
-        }
-
-        .search-bar [list]::-webkit-list-button,
-        .search-bar [list]::-webkit-calendar-picker-indicator {
-            display: none !important;
-        }
-
-        .search-display {
-            text-align: center;
-        }
-
-        .card-header__title {
-            font-weight: 700;
-            font-size: 14px;
-            color: #8fa6b3;
-        }
-
-        .posts-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-            padding: 12px 0;
-        }
-
-        .post {
-            position: relative;
-            min-width: 300px;
-            flex: 0 0 25%;
-            border: 1px solid #e1e8ed;
-            border-radius: 4px;
-            min-height: 300px;
-            height: auto;
-        }
-
-        .post-title {
-            font: 700 18px/1.4em system-ui, Roboto, Arial, sans-serif;
-            color: #4a4a4a;
-            margin-top: 0;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .post-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
-
-        .post-content {
-            padding: 16px;
-        }
-
-        .post-preview {
-            overflow: hidden;
-            width: 100%;
-            text-align: center;
-            display: block;
-            margin: 0 auto;
-            border-bottom: 1px solid #e1e8ed;
-            line-height: 0;
-            height: 200px;
-        }
-
-        .post-tag {
-            display: inline-block;
-            margin-right: 10px;
-            margin-bottom: 10px;
-            padding: 0 8px;
-            color: #717171;
-            border: 1px solid #9b9b9b;
-            border-radius: 25px;
-            white-space: nowrap;
-        }
-
-        .filter-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            gap: 10px;
-            padding: 32px 0;
-            border-top: 1px solid #e4e4e4;
-            border-bottom: 1px solid #e4e4e4;
-            margin-bottom: 32px;
-        }
-
-        .filter-button {
-            transition: background-color 200ms, color 200ms;
-            background-color: transparent;
-            font: inherit;
-            cursor: pointer;
-            display: inline-block;
-            padding: 0 8px;
-            color: #717171;
-            border: 1px solid #9b9b9b;
-            border-radius: 25px;
-            font-size: 14px;
-            white-space: nowrap;
-        }
-
-        .filter-button:hover {
-            background-color: #f3f3f3;
-            color: #3a3a3a;
-        }
-
-        .filter-button.is-active {
-            background-color: #0085b6;
-            border-color: #0085b6;
-            color: #fff;
-        }
-    </style>
 </body>
 
 </html>
