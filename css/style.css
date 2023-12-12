@@ -657,4 +657,108 @@ a.btn-show-more:hover {
 }
 
 
-/* ============================================ */
+/* ==================== Detail style ======================== */
+@media screen and (max-width: 767px) and (min-width: 660px) {
+    h1.post-title, #content-main h1.post-title {
+        font-size: 1.9rem;
+    }
+}
+
+.fly-but-wrap, span.feat-cat, span.post-head-cat, .prev-next-text a, .prev-next-text a:visited, .prev-next-text a:hover {
+    background: #8c0b0b;
+}
+
+#post-header {
+    display: block;
+    float: left;
+    margin: 30px 4.10396716826%;
+    padding: 0;
+    width: 91.7920656635%;
+}
+@media screen and (max-width: 899px) and (min-width: 768px) {
+    #post-header {
+        display: block;
+        float: left;
+        margin: 30px 4.10396716826%;
+        padding: 0;
+        width: 91.7920656635%;
+    }
+}
+
+span.post-head-cat {
+    clear: both;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-family: helvetica, arial, sans-serif;
+    font-size: .65rem;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 7px;
+    padding: 4px 15px;
+    text-transform: uppercase;
+}
+
+.left, .alignleft {
+    float: left;
+}
+
+h1.post-title {
+    color: #2d3090;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 200%;
+    text-transform: none;
+    width: 100%;
+}
+
+#content-main p {
+    color: #222;
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+
+.post-info-out {
+    float: right;
+    margin-left: -70px;
+    position: relative;
+    width: 100%;
+}
+
+.post-info-img {
+    margin-right: 20px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+
+.post-info-name {
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    font-size: .9rem;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+/* #sidebar-wrap h4.post-header {
+    margin-bottom: 15px;
+}
+
+span.post-header {
+    border-top: 4px solid #8c0b0b;
+}
+
+h4.post-header {
+    border-top: 4px solid #eee;
+    float: left;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+} */
+
