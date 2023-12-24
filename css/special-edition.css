@@ -9,14 +9,9 @@ html {
     box-sizing: border-box;
 }
 
-.bg-image {
-    /* The image used */
-    background-image: url("../img/special-edition.jpeg");
-
-    /* Add the blur effect */
+.header-image{
     filter: blur(2px);
     -webkit-filter: blur(8px);
-
     /* Full height */
     height: 100%;
 
@@ -25,6 +20,15 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg-image-special-header {
+    /* The image used */
+    background-image: url("../img/special-edition.jpeg");   
+}
+.bg-image-politic-header {
+    /* The image used */
+    background-image: url("../img/politic-img-background.jpeg");   
+}
+
 
 /* Position text in the middle of the page/image */
 .bg-text {
@@ -50,9 +54,11 @@ html {
     color: #f1f1f1;
 }
 
-.politic-back-img {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/politic-img-background.jpeg) left center no-repeat;
-    width: 107%;
-    height: 80vh;
+.special-footer-img-background {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/special-edition.jpeg) left center no-repeat;
+    background-size: cover;
 }
-
+.politic-footer-img-background {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/politic-img-background.jpeg) left center no-repeat;
+    background-size: cover;
+}
