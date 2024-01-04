@@ -7,33 +7,35 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="shortcut icon" type="image/x-icon"
+  <link rel="shortcut icon" type="../image/x-icon"
     href="https://dap-news.com/wp-content/uploads/2020/05/cropped-DAP-News-Logo-Final-01-copy-32x32.png" sizes="32x32">
 
   <!-- Favicon -->
-  <link href="img/favicon.ico" rel="icon" />
+  <link href="img/favicon.ico" rel="icon">
 
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
-
   <!-- Icon Font Stylesheet -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
   <!-- Libraries Stylesheet -->
-  <link href="lib/animate/animate.min.css" rel="stylesheet" />
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Customized Bootstrap Stylesheet -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Template Stylesheet -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>
+      .card-img-top {
+          height: 400px;
+      }
+  </style>
 </head>
 
 <body>
@@ -53,408 +55,374 @@
   <!-- Navbar -->
   <div class="container-fluid sticky-top">
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
-            <a href="index.html" class="navbar-brand d-lg-none">
-                <h1 class="text-primary m-0">News<span class="text-dark">group5</span></h1>
-            </a>
-            <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav">
-                    <!-- Your menu items go here -->
-                    <div class="navbar-nav">
-                        <a href="index.html" class="nav-item nav-link" style="font-size: 11px;">ព្រឹត្តិការណ៍សំខាន់ប្រចាំថ្ងៃ</a>
-                        <a href="about.html" class="nav-item nav-link active" style="font-size: 11px;">ព័ត៌មានចុងក្រោយ</a>
-                        <a href="service.html" class="nav-item nav-link" style="font-size: 11px;">ព័ត៌មានជាតិ</a>
-                        <a href="politic.html" class="nav-item nav-link" style="font-size: 11px;">នយោបាយ</a>
-                        <a href="international.html" class="nav-item nav-link" style="font-size: 11px;">ព័ត៌មានអន្តរជាតិ</a>
-                        <a href="scholar.html" class="nav-item nav-link" style="font-size: 11px;">អត្ថបទស្រាវជ្រាវ (scholar)</a>
-                        <a href="event.html" class="nav-item nav-link" style="font-size: 11px;">Event</a>
-                        <a href="#" class="nav-item nav-link" style="font-size: 11px;">កីឡា</a>
-                        <a href="special-edition.html" class="nav-item nav-link" style="font-size: 11px;">Special Edition</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="font-size: 11px;">ផ្សេងៗ</a>
-                            <div class="dropdown-menu bg-light m-0">
-                                <a href="seagame.html" class="dropdown-item" style="font-size: 11px;">SEA GAME</a>
-                                <a href="team.html" class="dropdown-item" style="font-size: 11px;">Covid-19</a>
-                                <a href="testimonial.html" class="dropdown-item" style="font-size: 11px;">វប្បធម៌កាន់ស៊ុ</a>
-                                <a href="appoinment.html" class="dropdown-item" style="font-size: 11px;">ករណីទន្ទ្រានកាន់កាប់ដីព្រៃលិចទឹក</a>
-                                <a href="404.html" class="dropdown-item" style="font-size: 11px;">សេដ្ឋកិច្ច</a>
-                                <a href="404.html" class="dropdown-item" style="font-size: 11px;">កម្សាន្ត</a>
-                                <a href="404.html" class="dropdown-item" style="font-size: 11px;">បច្ចេកវិទ្យា</a>
-                                <a href="404.html" class="dropdown-item" style="font-size: 11px;">សហគ្រិន</a>
-                                <a href="404.html" class="dropdown-item" style="font-size: 11px;">សុខភាព</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ms-auto d-none d-lg-flex">
-                    <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-twitter"></i></a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+        <a href="index.html" class="navbar-brand d-lg-none">
+          <h1 class="text-primary m-0">News<span class="text-dark">group5</span></h1>
+        </a>
+        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="d-none d-lg-flex">
+            <a class="btn btn-secondary ms-2"href="home.html"><i class='fas fa-house-damage'></i></i></a>
+        </div>
+        <div class="ms-5 navbar-nav">
+            <!-- Your menu items go here -->
+            <div class="navbar-nav">
+              <a href="index.html" class="nav-item nav-link" style="font-size: 14px;">ព្រឹត្តិការណ៍សំខាន់ប្រចាំថ្ងៃ</a>
+              <a href="about.html" class="nav-item nav-link active" style="font-size: 14px;">ព័ត៌មានចុងក្រោយ</a>
+              <a href="service.html" class="nav-item nav-link" style="font-size: 14px;">ព័ត៌មានជាតិ</a>
+              <a href="politic.html" class="nav-item nav-link" style="font-size: 14px;">នយោបាយ</a>
+              <a href="international.html" class="nav-item nav-link" style="font-size: 14px;">ព័ត៌មានអន្តរជាតិ</a>
+              <a href="scholar.html" class="nav-item nav-link" style="font-size: 14px;">អត្ថបទស្រាវជ្រាវ (scholar)</a>
+              <a href="event.html" class="nav-item nav-link" style="font-size: 14px;">Event</a>
+              <a href="#" class="nav-item nav-link" style="font-size: 14px;">កីឡា</a>
+              <a href="special-edition.html" class="nav-item nav-link" style="font-size: 14px;">Special Edition</a>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                  style="font-size: 14px;">ផ្សេងៗ</a>
+                <div class="dropdown-menu bg-light m-0">
+                  <a href="seagame.html" class="dropdown-item" style="font-size: 14px;">SEA GAME</a>
+                  <a href="team.html" class="dropdown-item" style="font-size: 14px;">Covid-19</a>
+                  <a href="testimonial.html" class="dropdown-item" style="font-size: 14px;">វប្បធម៌កាន់ស៊ុ</a>
+                  <a href="appoinment.html" class="dropdown-item"
+                    style="font-size: 14px;">ករណីទន្ទ្រានកាន់កាប់ដីព្រៃលិចទឹក</a>
+                  <a href="404.html" class="dropdown-item" style="font-size: 14px;">សេដ្ឋកិច្ច</a>
+                  <a href="404.html" class="dropdown-item" style="font-size: 14px;">កម្សាន្ត</a>
+                  <a href="404.html" class="dropdown-item" style="font-size: 14px;">បច្ចេកវិទ្យា</a>
+                  <a href="404.html" class="dropdown-item" style="font-size: 14px;">សហគ្រិន</a>
+                  <a href="404.html" class="dropdown-item" style="font-size: 14px;">សុខភាព</a>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="ms-auto d-none d-lg-flex">
+            <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-twitter"></i></a>
           </div>
         </div>
       </nav>
     </div>
   </div>
 
-  <!-- Box card -->
-  <div class="container-fluid container-service py-5">
-    <div class="container pt-5">
-      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-        <h1 class="display-6 mb-3">ព័ត៌មានចុងក្រោយ</h1>
-        <p class="mb-5">ពលរដ្ឋខ្មែរ និងភ្ញៀវទេសចរយ៉ាងច្រើនកុះករ​ ដើរលេង​កម្សាន្ត​ក្នុង​ពិធីបុណ្យអុំទូក យ៉ាងសប្បាយរីករាយ
-          ក្រោម​ម្លប់​សន្តិភាព</p>
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="card mb-4">
-            <img src="img//lates-pic1.png" alt="Rice Image" class="card-img-top"
-              style="max-height: 200px; object-fit: cover;">
-            <div class="card-body service-item">
-              <h5 class="card-title mb-3">ព័តមានអន្តរជាតិ</h5>
-              <p class="card-text mb-4">នាយកសាលា៖ វ័យណាក៏ដោយ ឱ្យតែចង់មានជំនាញបច្ចេកទេសវិជ្ជាជីវៈ គឺអាចមករៀនបាន</p>
-              <a href="detail/about-detail1.html" class="btn btn-light px-3">អាន​បន្ថែម <i
-                  class="bi bi-chevron-double-right ms-1"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Service Item 2 -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-          <div class="card mb-4">
-            <!-- Include content for Service Item 2 -->
-            <img src="img//lates-pic2.jpg" alt="Rice Image" class="card-img-top"
-              style="max-height: 200px; object-fit: cover;">
-            <div class="card-body service-item">
-              <h5 class="card-title mb-3">ព័តមានអន្តរជាតិ</h5>
-              <p class="card-text mb-4">ឧបនាយករដ្ឋមន្ដ្រី ស សុខា ណែនាំឱ្យដាក់ពិន័យធ្ងន់ធ្ងរ
-                ចំពោះអ្នកប្រើប្រាស់គ្រឿងស្រវឹង ដែលបង្កគ្រោះថ្នាក់ដល់អ្នកដទៃ</p>
-              <a href="detail/about-detail2.html" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Service Item 3 -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="card mb-4">
-            <!-- Include content for Service Item 4 -->
-            <img src="img//lates-pic3.jpg" alt="Rice Image" class="card-img-top"
-              style="max-height: 200px; object-fit: cover;">
-            <div class="card-body service-item">
-              <h5 class="card-title mb-3">ព័តមានអន្តរជាតិ</h5>
-              <p class="card-text mb-4">ឧបនាយករដ្ឋមន្ដ្រី ស សុខា ណែនាំឱ្យដាក់ពិន័យធ្ងន់ធ្ងរ
-                ចំពោះអ្នកប្រើប្រាស់គ្រឿងស្រវឹង ដែលបង្កគ្រោះថ្នាក់ដល់អ្នកដទៃ</p>
-              <a href="detail/about-detail3.html" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Service Item 4 -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-          <div class="card mb-4">
-            <!-- Include content for Service Item 4 -->
-            <img src="img//lates-pic4.jpg" alt="Rice Image" class="card-img-top"
-              style="max-height: 200px; object-fit: cover;">
-            <div class="card-body service-item">
-              <h5 class="card-title mb-3">ព័តមានអន្តរជាតិ</h5>
-              <p class="card-text mb-4">បទវិភាគ ៖ កិច្ចសហប្រតិបត្តិការ សំខាន់ជាងការខ្វែងគំនិតគ្នា កិច្ចសហប្រតិបត្តិការ
-                រវាងប្រទេសទាំងបី ចិន ជប៉ុននិងកូរ៉េខាងត្បូង</p>
-              <a href="detail/about-detail4.html" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="card mb-4">
-            <img src="img//lates-pic5.jpg" alt="Rice Image" class="card-img-top"
-              style="max-height: 200px; object-fit: cover;">
-            <div class="card-body service-item">
-              <h5 class="card-title mb-3">ព័តមានអន្តរជាតិ</h5>
-              <p class="card-text mb-4">វេទិកាមិត្តភាព និងសន្តិភាព ស្តីពីខ្លាឃ្មុំផេនដា Basi ឆ្នាំ២០២៣ បានបើកធ្វើ
-                នាថ្ងៃទី២៨ ខែវិច្ឆិកា</p>
-              <a href="detail/about-detail5.html" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Service Item 2 -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-          <div class="card mb-4">
-            <!-- Include content for Service Item 2 -->
-            <img src="img//lates-pic6.jpg" alt="Rice Image" class="card-img-top"
-              style="max-height: 200px; object-fit: cover;">
-            <div class="card-body service-item">
-              <h5 class="card-title mb-3">ព័តមានអន្តរជាតិ</h5>
-              <p class="card-text mb-4">លោកDing Xuexiang ឧបនាយករដ្ឋមន្ត្រីចិន បំពេញទស្សនកិច្ច នៅប្រទេសតួកម៉េនីស្ថាន
-                និងចូលរួមជាអធិបតី </p>
-              <a href="detail/about-detail6.html" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Service Item 3 -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="card mb-4">
-            <!-- Include content for Service Item 4 -->
-            <img src="img//lates-pic7.png" alt="Rice Image" class="card-img-top"
-              style="max-height: 200px; object-fit: cover;">
-            <div class="card-body service-item">
-              <h5 class="card-title mb-3">ព័តមានអន្តរជាតិ</h5>
-              <p class="card-text mb-4">សៀវភៅធ្វើម្ហូបខ្មែរ “សោយ” ទទួលបានជ័យលាភី “សៀវភៅធ្វើម្ហូបល្អបំផុតនៅលើពិភពលោក</p>
-              <a href="detail/about-detail7.html" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Service Item 4 -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-          <div class="card mb-4">
-            <!-- Include content for Service Item 4 -->
-            <img src="img//lates-pic8.png" alt="Rice Image" class="card-img-top"
-              style="max-height: 200px; object-fit: cover;">
-            <div class="card-body service-item">
-              <h5 class="card-title mb-3">ព័តមានអន្តរជាតិ</h5>
-              <p class="card-text mb-4">ទឹកប្រាក់ ១០០លានដុល្លារ ត្រូវបានបោះទុនវិនិយោគ អភិវឌ្ឍន៍ស្ថានីយ៍ ផលិតអគ្គិសនី
-                និងបង្កើតរោងចក្រ​ នៅកម្ពុជា</p>
-              <a href="detail/about-detail8.html" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-        <a href="about/more-info.html" class="btn btn-show-more"> Show More</a>
-      </div>
-      <hr>
-    </div>
-  </div>
-
-  <!-- Tab News Start-->
-  <div class="tab-news mt-5">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-6">
-          <ul class="nav nav-pills nav-justified">
-            <li class="nav-item">
-              <a class="nav-link active" data-toggle="pill" href="#featured">Featured News</a>
-            </li>
-          </ul>
-
-          <div class="tab-content">
-            <div id="featured" class="container tab-pane active">
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-1.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-2.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-3.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-            </div>
-            <div id="popular" class="container tab-pane fade">
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-4.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-5.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-1.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-            </div>
-            <div id="latest" class="container tab-pane fade">
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-2.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-3.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-4.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <ul class="nav nav-pills nav-justified">
-            <li class="nav-item">
-              <a class="nav-link active" data-toggle="pill" href="#m-viewed">Most Viewed</a>
-            </li>
-          </ul>
-
-          <div class="tab-content">
-            <div id="m-viewed" class="container tab-pane active">
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-5.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-4.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-3.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-            </div>
-            <div id="m-read" class="container tab-pane fade">
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-2.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-1.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-3.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-            </div>
-            <div id="m-recent" class="container tab-pane fade">
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-4.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-5.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-              <div class="tn-news">
-                <div class="tn-img">
-                  <img src="img/news-350x223-1.jpg" />
-                </div>
-                <div class="tn-title">
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Tab News Start-->
-
-  <!-- Category News Start-->
-  <div class="cat-news">
+  <!--Banner -->
+  <section id="feature_news_section" class="feature_category_section section_wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <h2>Sports</h2>
-          <div class="row cn-slider">
-            <div class="col-md-6 ">
-              <div class="cn-img">
-                <img src="img/news-350x223-1.jpg" />
-                <div class="cn-title">
-                  <a href="">Lorem ipsum dolor sit</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="cn-img">
-                <img src="img/news-350x223-2.jpg" />
-                <div class="cn-title">
-                  <a href="">Lorem ipsum dolor sit</a>
+        <div class="col-md-9">
+          <div class="category_layout" style="padding-top: 0px;">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="item feature_news_item">
+                  <div class="item_wrapper">
+                    <div class="item_img">
+                      <img class="img-responsive"
+                        src="https://uicookies.com/demo/theme/sports-magazine/assets/img/category.jpg" alt="Chania">
+                    </div>
+                    <div class="item_title_date">
+                      <div class="news_item_title">
+                        <h2><a href="#">ព្រឹត្តិការណ៍សំខាន់ប្រចាំថ្ងៃ</a></h2>
+                      </div>
+                      <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+                    </div>
+                  </div>
+                  <div class="item_content">ពលរដ្ឋខ្មែរ និងភ្ញៀវទេសចរយ៉ាងច្រើនកុះករ​
+                    ដើរលេង​កម្សាន្ត​ក្នុង​ពិធីបុណ្យអុំទូក យ៉ាងសប្បាយរីករាយ ក្រោម​ម្លប់​សន្តិភាព
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <h2>Technology</h2>
-          <div class="row cn-slider">
-            <div class="col-md-6">
-              <div class="cn-img">
-                <img src="img/news-350x223-4.jpg" />
-                <div class="cn-title">
-                  <a href="">Lorem ipsum dolor sit</a>
+          <!-- Service Start -->
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="card mb-4">
+                <img src="img/rice.PNG" alt="Rice Image" class="card-img-top"
+                  style="max-height: 200px; object-fit: cover;">
+                <div class="card-body service-item">
+                  <h5 class="card-title mb-3">ព័ត៌មានជាតិ និង អន្តរជាតិសំខាន់ៗប្រចាំថ្ងៃ</h5>
+                  <p class="card-text mb-4">១១ខែនេះ កម្ពុជា នាំចេញអង្ករជិត៦០ម៉ឺនតោន ...</p>
+                  <a href="#" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="cn-img">
-                <img src="img/news-350x223-5.jpg" />
-                <div class="cn-title">
-                  <a href="">Lorem ipsum dolor sit</a>
+            <!-- Service Item 2 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="card mb-4">
+                <!-- Include content for Service Item 2 -->
+                <img src="img/ukrain.PNG" alt="Rice Image" class="card-img-top"
+                  style="max-height: 200px; object-fit: cover;">
+                <div class="card-body service-item">
+                  <h5 class="card-title mb-3">ព័ត៌មានជាតិ និង អន្តរជាតិសំខាន់ៗប្រចាំថ្ងៃ</h5>
+                  <p class="card-text mb-4">យើងគួរត្រៀមខ្លួន សម្រាប់ដំណឹងអាក្រក់ នៅអ៊ុយក្រែន</p>
+                  <a href="#" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service Item 3 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="card mb-4">
+                <!-- Include content for Service Item 4 -->
+                <img src="img/milion.PNG" alt="Rice Image" class="card-img-top"
+                  style="max-height: 200px; object-fit: cover;">
+                <div class="card-body service-item">
+                  <h5 class="card-title mb-3">ព័ត៌មានជាតិ និង អន្តរជាតិសំខាន់ៗប្រចាំថ្ងៃ</h5>
+                  <p class="card-text mb-4">ក្រុមហ៊ុន៧ទៀត បោះទុនជិត៣៣លានដុល្លារ ...</p>
+                  <a href="#" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="card mb-4">
+                <img src="img/rice.PNG" alt="Rice Image" class="card-img-top"
+                  style="max-height: 200px; object-fit: cover;">
+                <div class="card-body service-item">
+                  <h5 class="card-title mb-3">ព័ត៌មានជាតិ និង អន្តរជាតិសំខាន់ៗប្រចាំថ្ងៃ</h5>
+                  <p class="card-text mb-4">១១ខែនេះ កម្ពុជា នាំចេញអង្ករជិត៦០ម៉ឺនតោន ...</p>
+                  <a href="#" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Service Item 2 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+              <div class="card mb-4">
+                <!-- Include content for Service Item 2 -->
+                <img src="img/ukrain.PNG" alt="Rice Image" class="card-img-top"
+                  style="max-height: 200px; object-fit: cover;">
+                <div class="card-body service-item">
+                  <h5 class="card-title mb-3">ព័ត៌មានជាតិ និង អន្តរជាតិសំខាន់ៗប្រចាំថ្ងៃ</h5>
+                  <p class="card-text mb-4">យើងគួរត្រៀមខ្លួន សម្រាប់ដំណឹងអាក្រក់ នៅអ៊ុយក្រែន
+                  </p>
+                  <a href="#" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service Item 3 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+              <div class="card mb-4">
+                <!-- Include content for Service Item 4 -->
+                <img src="img/milion.PNG" alt="Rice Image" class="card-img-top"
+                  style="max-height: 200px; object-fit: cover;">
+                <div class="card-body service-item">
+                  <h5 class="card-title mb-3">ព័ត៌មានជាតិ និង អន្តរជាតិសំខាន់ៗប្រចាំថ្ងៃ</h5>
+                  <p class="card-text mb-4">ក្រុមហ៊ុន៧ទៀត បោះទុនជិត៣៣លានដុល្លារ ...</p>
+                  <a href="#" class="btn btn-light px-3">អាន​បន្ថែម <i class="bi bi-chevron-double-right ms-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Service End -->
+
+          <div class="col-lg-12 mb-4">
+            <div class="img-responsive text-center">
+              <img src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img_ad.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 ">
+          <div class="row">
+            <div class="tab sitebar">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#1" data-toggle="tab">Latest</a></li>
+                <li><a href="#2" data-toggle="tab">Populer</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active" id="1">
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#"><img class="media-object"
+                          src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpg"
+                          alt="Generic placeholder image"></a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="#">Spain going to made class football</a>
+                      </h4>
+                      <span class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#"><img class="media-object"
+                          src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpg"
+                          alt="Generic placeholder image"></a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="#">Spain going to made class football</a>
+                      </h4>
+                      <span class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#"><img class="media-object"
+                          src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpg"
+                          alt="Generic placeholder image"></a>
+                    </div>
+                    <div class="media-body">
+                      <h3 class="media-heading"><a href="#">Spain going to made
+                          clahttps://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpgss
+                          football</a>
+                      </h3>
+                      <span class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#"><img class="media-object"
+                          src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpg"
+                          alt="Generic placeholder image"></a>
+                    </div>
+                    <div class="media-body">
+                      <h3 class="media-heading"><a href="#">Spain going to made class football</a>
+                      </h3>
+                      <span class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="2">
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#"><img class="media-object"
+                          src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list4.jpg"
+                          alt="Generic placeholder image"></a>
+                    </div>
+                    <div class="media-body">
+                      <h3 class="media-heading"><a href="#">Spain going to made class football</a>
+                      </h3>
+                      <span class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#"><img class="media-object"
+                          src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list4.jpg"
+                          alt="Generic placeholder image"></a>
+                    </div>
+                    <div class="media-body">
+                      <h3 class="media-heading"><a href="#">Spain going to made class football</a>
+                      </h3>
+                      <span class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ad">
+              <img class="img-responsive"
+                src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-sitebar.jpg" alt="img">
+              <img class="img-responsive"
+                src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-sitebar.jpg" alt="img">
+              <img class="img-responsive"
+                src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-sitebar.jpg" alt="img">
+              <img class="img-responsive"
+                src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-sitebar.jpg" alt="img">
+            </div>
+            <div class="ad">
+              <img class="img-responsive" src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-ad.jpg"
+                alt="img">
+            </div>
+            <div class="ad">
+              <img class="img-responsive" src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-ad2.jpg"
+                alt="img">
+            </div>
+            <div class="most_comment">
+              <div class="sidebar_title">
+                <h2>Most Commented</h2>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#"><img class="media-object"
+                      src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpg"
+                      alt="Generic placeholder image"></a>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+                  <div class="comment_box">
+                    <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
+                    <div class="comments"><a href="#">9 Comments</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#"><img class="media-object"
+                      src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpg"
+                      alt="Generic placeholder image"></a>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+                  <div class="comment_box">
+                    <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
+                    <div class="comments"><a href="#">20 Comments</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#"><img class="media-object"
+                      src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpg"
+                      alt="Generic placeholder image"></a>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+                  <div class="comment_box">
+                    <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
+                    <div class="comments"><a href="#">23 Comments</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#"><img class="media-object"
+                      src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpg"
+                      alt="Generic placeholder image"></a>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+                  <div class="comment_box">
+                    <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
+                    <div class="comments"><a href="#">44 Comments</a></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -462,61 +430,7 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- Category News End-->
-
-  <!-- Category News Start-->
-  <div class="cat-news">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Business</h2>
-          <div class="row cn-slider">
-            <div class="col-md-6">
-              <div class="cn-img">
-                <img src="img/news-350x223-5.jpg" />
-                <div class="cn-title">
-                  <a href="">Lorem ipsum dolor sit</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="cn-img">
-                <img src="img/news-350x223-4.jpg" />
-                <div class="cn-title">
-                  <a href="">Lorem ipsum dolor sit</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h2>Entertainment</h2>
-          <div class="row cn-slider">
-            <div class="col-md-6">
-              <div class="cn-img">
-                <img src="img/news-350x223-2.jpg" />
-                <div class="cn-title">
-                  <a href="">Lorem ipsum dolor sit</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="cn-img">
-                <img src="img/news-350x223-1.jpg" />
-                <div class="cn-title">
-                  <a href="">Lorem ipsum dolor sit</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Category News End-->
+  </section>
 
   <!-- Footer -->
   <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">

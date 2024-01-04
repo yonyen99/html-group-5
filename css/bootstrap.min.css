@@ -50,7 +50,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #8a91ac;
-    background-color: #fff;
+    background-color: #eee;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
@@ -646,7 +646,12 @@ progress {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+}
+
+.container-fluid {
+    background-color: #fff;
+
 }
 
 @media(min-width: 576px) {
@@ -4509,7 +4514,8 @@ fieldset:disabled .btn {
     display: flex;
     flex-wrap: inherit;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    background-color: #fff;
 }
 
 .navbar-brand {
@@ -8418,7 +8424,7 @@ h2:hover {
 }
 
 .text-white-50 {
-    color: rgba(255, 255, 255, .5) !important
+    /* color: rgba(255, 255, 255, .5) !important */
 }
 
 .text-reset {
@@ -8454,7 +8460,7 @@ h2:hover {
 }
 
 .bg-dark {
-    background-color: #031b4e !important
+    /* background-color: #031b4e !important */
 }
 
 .bg-body {

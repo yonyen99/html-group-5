@@ -5954,8 +5954,8 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background: no-repeat 50% / 100% 100%;
 }
 
@@ -6164,7 +6164,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #1E2024 !important;
+  /* background-color: #1E2024 !important; */
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
