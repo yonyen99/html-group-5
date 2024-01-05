@@ -65,12 +65,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="d-none d-lg-flex">
-                        <a class="btn btn-secondary ms-2 active" href="home.html"><i class='fas fa-house-damage'></i></a>
+                        <a class="btn btn-secondary ms-2" href="home.html"><i class='fas fa-house-damage'></i></a>
                     </div>
                     <div class="ms-5 navbar-nav">
                         <!-- Your menu items go here -->
                         <div class="navbar-nav">
-                            <a href="index.html" class="nav-item nav-linke" style="font-size: 14px;">ព្រឹត្តិការណ៍សំខាន់ប្រចាំថ្ងៃ</a>
+                            <a href="index.html" class="nav-item nav-link"
+                                style="font-size: 14px;">ព្រឹត្តិការណ៍សំខាន់ប្រចាំថ្ងៃ</a>
                             <a href="about.html" class="nav-item nav-link" style="font-size: 14px;">ព័ត៌មានចុងក្រោយ</a>
                             <a href="service.html" class="nav-item nav-link" style="font-size: 14px;">ព័ត៌មានជាតិ</a>
                             <a href="politic.html" class="nav-item nav-link" style="font-size: 14px;">នយោបាយ</a>
@@ -120,20 +121,24 @@
                         <div class="carousel-inner" role="listbox">
                             <div id="carouselExampleDark" class="carousel carousel-dark slide">
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="10000">
-                                        <img src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-carousel2.jpg"
-                                            class="d-block w-100" alt="...">
-                                        <div class="item_title_date text-center">
-                                            <div class="news_item_title">
-                                                <h2><a href="single.html">Seamlessly embrace B2C catalysts for change
-                                                        vis-a-vis economically sound communities.</a></h2>
+                                    <div class="carousel-item active feature_news_item" data-bs-interval="10000">
+                                        <div class="item_wrapper">
+                                            <div class="item_img">
+                                                <img class="img-responsive" src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-carousel2.jpg"
+                                                alt="...">
                                             </div>
-                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a
-                                                    href="#">Jhonson</a>
+                                            <div class="item_title_date text-center">
+                                                <div class="news_item_title">
+                                                    <h2><a href="single.html">Seamlessly embrace B2C catalysts for
+                                                            change
+                                                            vis-a-vis economically sound communities.</a></h2>
+                                                </div>
+                                                <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a
+                                                        href="#">Jhonson</a>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit
-                                        </div>
+                                        <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. </div>
                                     </div>
                                     <div class="carousel-item" data-bs-interval="2000">
                                         <img src="https://uicookies.com/demo/theme/sports-magazine/assets/img/img-carousel2.jpg"
@@ -178,7 +183,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="feature_news_static">
-                        <div class="row py-2">
+                        <div class="row">
                             <div class="col-md-6">
                                 <div class="feature_news_item">
                                     <div class="card active">
@@ -204,7 +209,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="feature_news_item">
-                                    <div class="card active" s>
+                                    <div class="card active">
                                         <div class="item_wrapper">
                                             <div class="item_img">
                                                 <img class="img-responsive"
@@ -605,9 +610,7 @@
                                                 alt="Generic placeholder image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading"><a href="#">Spain going to made
-                                                clahttps://uicookies.com/demo/theme/sports-magazine/assets/img/img-list2.jpgss
-                                                football</a>
+                                        <h3 class="media-heading"><a href="#">Spain going to made class football</a>
                                         </h3>
                                         <span class="rating">
                                             <i class="fa fa-star"></i>
@@ -761,7 +764,7 @@
         </div>
     </section>
 
-    <section id="feature_video_item" class="feature_video_item section_wrapper">
+    <!-- <section id="feature_video_item" class="feature_video_item section_wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -946,9 +949,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
-
+    </section> -->
 
     <!-- Footer Start -->
     <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">

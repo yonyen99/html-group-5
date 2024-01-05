@@ -2230,4 +2230,10 @@ h2 {
     padding: 20px 15px;
 }
 
+/* detail style */
+
+.single_content_layout {
+    background: #fff;
+    padding: 30px;
+}
 
