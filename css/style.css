@@ -120,8 +120,8 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
-    padding: 20px 0;
+    /* margin-right: 35px;
+    padding: 20px 0; */
     color: var(--bs-dark);
     font-size: 18px;
     font-weight: 500;
