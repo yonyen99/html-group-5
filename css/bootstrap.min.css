@@ -3152,22 +3152,22 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #3368c6;
-    border-color: #3368c6
+    background-color:#820300;
+    border-color: #820300
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #2b58a8;
-    border-color: #29539e
+    background-color: #820300;
+    border-color: #820300
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #fff;
-    background-color: #2b58a8;
-    border-color: #29539e;
-    box-shadow: 0 0 0 .25rem rgba(82, 127, 207, .5)
+    background-color:#820300;
+    border-color: #820300;
+    box-shadow: 0 0 0 .25rem #820300
 }
 
 .btn-check:checked+.btn-primary,
@@ -8376,7 +8376,7 @@ h2:hover {
 }
 
 .text-primary {
-    color: #3368c6 !important
+    color: #820300 !important
 }
 
 .text-secondary {

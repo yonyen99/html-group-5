@@ -130,7 +130,7 @@ body {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: #820300;
 }
 
 .navbar .dropdown-toggle::after {
@@ -598,7 +598,7 @@ body {
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--bs-primary);
+    color: #820300;;
     letter-spacing: 1px;
     box-shadow: none;
 }
