@@ -212,8 +212,8 @@ body {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 2.5rem;
-    background-color: var(--bs-primary);
-    border: 15px solid var(--bs-primary);
+    background-color: #820300;
+    border: 15px solid #820300;
 }
 
 @media (max-width: 767.98px) {
@@ -2105,7 +2105,8 @@ h1.post-title {
 }
 
 .media h3.media-heading {
-    font-size: 15px;
+    color: #666666;
+    font-size: 12px;
 }
 
 .media-heading {
