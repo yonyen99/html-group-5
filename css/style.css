@@ -2134,6 +2134,10 @@ a:focus {
     background: rgba(14, 214, 202, 0.84);
 }
 
+.black {
+    background: #000;
+}
+
 @media (min-width: 992px) {
     .col-md-3 {
         width: 25%;
@@ -2261,4 +2265,8 @@ h2 {
     top: 10px;
     right: 10px;
     cursor: pointer;
+  }
+
+  a {
+    word-wrap: anywhere;
   }
