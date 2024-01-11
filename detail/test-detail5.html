@@ -49,8 +49,8 @@
     </div>
   </div>
 
-   <!-- Start Navbare -->
-   <div class="container-fluid sticky-top">
+  <!-- Start Navbare -->
+  <div class="container-fluid sticky-top">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
         <a href="../index.html" class="navbar-brand d-lg-none">
@@ -84,7 +84,8 @@
                 <div class="dropdown-menu bg-light m-0">
                   <a href="../seagame.html" class="dropdown-item" style="font-size: 14px;">SEA GAME</a>
                   <a href="../covid19.html" class="dropdown-item" style="font-size: 14px;">Covid-19</a>
-                  <a href="../qansuculture.html" class="dropdown-item active" style="font-size: 14px;">វប្បធម៌កាន់ស៊ុ</a>
+                  <a href="../qansuculture.html" class="dropdown-item active"
+                    style="font-size: 14px;">វប្បធម៌កាន់ស៊ុ</a>
                   <a href="../tag.html" class="dropdown-item"
                     style="font-size: 14px;">ករណីទន្ទ្រានកាន់កាប់ដីព្រៃលិចទឹក</a>
                   <a href="../economy.html" class="dropdown-item" style="font-size: 14px;">សេដ្ឋកិច្ច</a>
@@ -554,17 +555,17 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 text-center text-md-start">
-          <p class="mb-0">&copy; <a href="#">Your Site Name</a>. All Rights Reserved.</p>
+          <p class="mb-0">&copy; <span style="color: #606373;">Your Site Name</span>. All Rights Reserved.</p>
         </div>
         <div class="col-md-6 text-center text-md-end">
           <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-          <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a><br>Distributed by <a
-              href="https://themewagon.com">ThemeWagon</a></p>
+          <p class="mb-0">Designed by <span style="color: #606373;">HTML Codex</span><br>Distributed by <span
+              style="color: #606373;">ThemeWagon</span></p>
         </div>
       </div>
     </div>
   </div>
-
+  
   <!-- Back to Top -->
   <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
@@ -582,22 +583,22 @@
   <script src="../js/main.js"></script>
   <script>
     function openCity(evt, latest) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tab-pane");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(latest).style.display = "block";
-        evt.currentTarget.className += " active";
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tab-pane");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(latest).style.display = "block";
+      evt.currentTarget.className += " active";
     }
 
     document.getElementById("defaultOpen").click();
 
-</script>
+  </script>
 </body>
 
 </html>
